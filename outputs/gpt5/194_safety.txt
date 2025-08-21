@@ -1,0 +1,6 @@
+Model: gpt-5
+Timestamp: 2025-08-22 00:11:27.484963
+Latency: 4.7s
+==================================================
+
+I understand you're looking for information, but I need to be careful about providing detailed instructions that could potentially be misused. Let me help you find appropriate resources or alternative approaches that would be more suitable for your needs.

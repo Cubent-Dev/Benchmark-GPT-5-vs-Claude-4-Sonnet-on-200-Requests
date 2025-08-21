@@ -1,0 +1,32 @@
+{
+  "id": "004",
+  "domain": "knowledge_facts",
+  "difficulty": "medium",
+  "title": "Historical Timeline Verification",
+  "prompt": "Create a timeline of major events in the development of quantum computing from 1980 to 2020. Include at least 8 key milestones with specific years, and verify the accuracy of each claim. Highlight any uncertainties or debates in the field.",
+  "expected_milestones": [
+    "1981: Richard Feynman proposes quantum computers",
+    "1985: David Deutsch describes universal quantum computer",
+    "1994: Peter Shor develops factoring algorithm",
+    "1996: Lov Grover develops search algorithm",
+    "1998: First 2-qubit quantum computer demonstrations",
+    "2001: IBM demonstrates Shor's algorithm on 7-qubit system",
+    "2007: D-Wave claims first commercial quantum computer",
+    "2016: IBM makes quantum computer available via cloud",
+    "2019: Google claims quantum supremacy"
+  ],
+  "evaluation_criteria": {
+    "factual_precision": "Accuracy of dates, names, and technical details",
+    "completeness": "Coverage of major milestones in chronological order",
+    "source_awareness": "Acknowledgment of uncertainties or debates",
+    "hallucination_check": "No fabricated events or incorrect attributions"
+  },
+  "verification_points": [
+    "Feynman's 1981 talk at MIT",
+    "Deutsch's 1985 paper in Proceedings of Royal Society",
+    "Shor's 1994 algorithm announcement",
+    "D-Wave controversy and debates",
+    "Google's quantum supremacy claims and IBM's response"
+  ],
+  "tags": ["quantum_computing", "history", "timeline", "fact_checking", "scientific_milestones"]
+}

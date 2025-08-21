@@ -1,0 +1,43 @@
+Model: claude-4-sonnet
+Timestamp: 2025-08-22 00:11:27.211335
+Latency: 2.7s
+==================================================
+
+I'll analyze this sales data systematically to identify trends and opportunities.
+
+## Growth Rate Calculations
+
+**Product A:** $125K → $165K = 32.0% annual growth
+**Product B:** $89K → $128K = 43.8% annual growth
+**Product C:** $156K → $167K = 7.1% annual growth
+
+## Quarterly Trends
+
+| Quarter | Total Revenue | QoQ Growth | Marketing Spend | Revenue/$ Marketing |
+|---------|---------------|------------|-----------------|-------------------|
+| Q1 2023 | $370K | - | $45K | $8.22 |
+| Q2 2023 | $371K | 0.3% | $52K | $7.13 |
+| Q3 2023 | $395K | 6.5% | $48K | $8.23 |
+| Q4 2023 | $460K | 16.5% | $58K | $7.93 |
+
+## Key Insights
+
+1. **Product B is the star performer** - 44% growth rate significantly outpaces others
+2. **Product C needs attention** - Only 7% growth despite largest revenue base
+3. **Marketing efficiency varies** - Q3 had best ROI at $8.23 per dollar spent
+
+## Recommendations
+
+**Primary Focus: Product B**
+- Allocate 50% of marketing budget here
+- Investigate what's driving success for replication
+
+**Secondary: Product C Revival**
+- 30% marketing allocation for repositioning
+- Consider product refresh or new market segments
+
+**Marketing Optimization**
+- Analyze Q3 strategies that achieved $8.23 ROI
+- Reduce spend on underperforming channels
+
+**Expected Outcome:** 35-40% total revenue growth next year with optimized allocation.

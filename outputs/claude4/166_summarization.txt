@@ -1,0 +1,8 @@
+Model: claude-4-sonnet
+Timestamp: 2025-08-22 00:11:27.424762
+Latency: 4.7s
+==================================================
+
+This 100-word summary covers the key technical contributions:
+
+The paper introduces Sparse Hierarchical Attention (SHA), a transformer attention mechanism reducing complexity from O(n²) to O(n log n). SHA uses tree-based structures for selective multi-scale token attention. Testing on BERT-base and GPT-2 across five NLP benchmarks (GLUE, SuperGLUE, SQuAD 2.0, CoNLL-2003 NER, WMT-14) demonstrates 94-98% baseline performance retention with 40% faster training and 35% faster inference. SHA particularly benefits long sequences (>512 tokens) where standard attention is computationally expensive. The work includes theoretical approximation bounds and empirical validation across various model sizes, proving efficiency gains.

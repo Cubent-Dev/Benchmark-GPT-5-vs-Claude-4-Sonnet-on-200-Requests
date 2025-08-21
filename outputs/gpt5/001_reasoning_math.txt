@@ -1,0 +1,44 @@
+Model: gpt-5
+Timestamp: 2025-08-22 00:11:27.202884
+Latency: 5.9s
+==================================================
+
+I need to set up equations based on the age relationships given.
+
+Let me define:
+- S = Sarah's current age
+- E = Emma's current age
+
+From the problem:
+1. Sarah is currently 3 times as old as Emma: S = 3E
+2. In 12 years, Sarah will be twice as old as Emma: S + 12 = 2(E + 12)
+3. Sarah's age is 4 more than 5 times Emma's age minus 8: S = 5E - 8 + 4 = 5E - 4
+
+From equations 1 and 3:
+3E = 5E - 4
+-2E = -4
+E = 2
+
+Therefore: S = 3(2) = 6
+
+Let me verify with equation 2:
+In 12 years: Sarah = 6 + 12 = 18, Emma = 2 + 12 = 14
+Is 18 = 2(14)? Yes, 18 = 28... wait, that's not right.
+
+Let me recalculate equation 2:
+S + 12 = 2(E + 12)
+6 + 12 = 2(2 + 12)
+18 = 2(14) = 28
+
+This doesn't work. Let me check my algebra again.
+
+From S = 3E and S + 12 = 2(E + 12):
+3E + 12 = 2E + 24
+E = 12
+
+So S = 3(12) = 36
+
+Checking: In 12 years, Sarah = 48, Emma = 24. Is 48 = 2(24)? Yes!
+Checking equation 3: Is 36 = 5(12) - 4 = 60 - 4 = 56? No.
+
+There seems to be an inconsistency in the problem constraints.

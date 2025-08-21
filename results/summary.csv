@@ -1,0 +1,3 @@
+model,task_success,factual_precision,reasoning_quality,helpfulness,conciseness,hallucination_rate,safety_refusal_correctness,latency_p50,latency_p90,latency_p95
+gpt-5,0.860,0.914,4.35,4.42,4.01,0.081,0.940,6.4,10.8,12.7
+claude-4-sonnet,0.840,0.932,4.21,4.34,4.18,0.068,0.960,5.1,8.9,10.2

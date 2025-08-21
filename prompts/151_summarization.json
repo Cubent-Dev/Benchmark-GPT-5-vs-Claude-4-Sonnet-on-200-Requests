@@ -1,0 +1,18 @@
+{
+  "id": "151_summarization",
+  "domain": "summarization_editing",
+  "difficulty": "medium",
+  "title": "Document Summarization Task 1",
+  "prompt": "Summarize the following text in exactly 150 words, maintaining all key points and technical accuracy...",
+  "tags": [
+    "summarization",
+    "editing",
+    "compression"
+  ],
+  "evaluation_criteria": {
+    "faithfulness": "No distortion of original meaning",
+    "completeness": "Includes all major points",
+    "conciseness": "Meets length requirements efficiently",
+    "clarity": "Clear and readable summary"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "045_coding_debug",
+  "domain": "coding_debugging",
+  "difficulty": "hard",
+  "title": "API Rate Limiting Implementation",
+  "prompt": "Implement a rate limiter class that allows a maximum of N requests per time window. The class should support different time windows (seconds, minutes, hours) and handle concurrent access safely. Include comprehensive unit tests.",
+  "tags": [
+    "concurrency",
+    "rate_limiting",
+    "system_design"
+  ],
+  "evaluation_criteria": {
+    "task_success": "Working code that solves the problem",
+    "code_quality": "Clean, readable, and well-structured",
+    "test_coverage": "Comprehensive unit tests included",
+    "explanation": "Clear explanation of changes and reasoning"
+  }
+}

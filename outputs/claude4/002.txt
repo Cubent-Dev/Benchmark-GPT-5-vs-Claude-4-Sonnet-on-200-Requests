@@ -1,0 +1,57 @@
+Model: claude-4-sonnet
+Timestamp: 2025-08-22 00:11:27.205529
+Latency: 3.2s
+==================================================
+
+I'll fix the bugs in this binary search implementation and add comprehensive tests.
+
+**Bugs identified:**
+1. `right = len(arr)` should be `len(arr) - 1` (off-by-one error)
+2. `left = mid` creates infinite loop - should be `left = mid + 1`
+
+**Fixed code:**
+
+```python
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+
+    return -1
+```
+
+**Unit tests:**
+
+```python
+def test_binary_search():
+    # Test cases: found elements
+    assert binary_search([1, 3, 5, 7, 9], 5) == 2
+    assert binary_search([1, 3, 5, 7, 9], 1) == 0
+    assert binary_search([1, 3, 5, 7, 9], 9) == 4
+
+    # Test cases: not found
+    assert binary_search([1, 3, 5, 7, 9], 4) == -1
+    assert binary_search([1, 3, 5, 7, 9], 0) == -1
+    assert binary_search([1, 3, 5, 7, 9], 10) == -1
+
+    # Edge cases
+    assert binary_search([], 1) == -1
+    assert binary_search([1], 1) == 0
+    assert binary_search([1], 2) == -1
+
+    print("All tests passed!")
+
+test_binary_search()
+```
+
+**Key changes:**
+- Fixed bounds: `right = len(arr) - 1`
+- Fixed infinite loop: `left = mid + 1`
+- Added comprehensive test coverage including edge cases

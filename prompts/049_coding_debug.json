@@ -1,0 +1,18 @@
+{
+  "id": "049_coding_debug",
+  "domain": "coding_debugging",
+  "difficulty": "medium",
+  "title": "Database Query Optimization",
+  "prompt": "Optimize this SQL query for better performance and explain your changes:\n\n```sql\nSELECT u.name, COUNT(*) as order_count\nFROM users u, orders o, products p\nWHERE u.id = o.user_id\nAND o.product_id = p.id\nAND p.category = 'electronics'\nAND o.order_date > '2023-01-01'\nGROUP BY u.name\nORDER BY order_count DESC;\n```",
+  "tags": [
+    "sql",
+    "optimization",
+    "database"
+  ],
+  "evaluation_criteria": {
+    "task_success": "Working code that solves the problem",
+    "code_quality": "Clean, readable, and well-structured",
+    "test_coverage": "Comprehensive unit tests included",
+    "explanation": "Clear explanation of changes and reasoning"
+  }
+}

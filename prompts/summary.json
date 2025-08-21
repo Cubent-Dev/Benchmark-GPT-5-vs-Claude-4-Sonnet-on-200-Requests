@@ -1,0 +1,11 @@
+{
+  "total_prompts": 145,
+  "domains": {
+    "reasoning_math": 5,
+    "coding_debugging": 40,
+    "data_analysis": 10,
+    "knowledge_facts": 40,
+    "summarization_editing": 30,
+    "safety_policy": 20
+  }
+}

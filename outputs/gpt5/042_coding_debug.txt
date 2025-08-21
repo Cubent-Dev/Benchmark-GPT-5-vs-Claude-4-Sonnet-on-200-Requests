@@ -1,0 +1,103 @@
+Model: gpt-5
+Timestamp: 2025-08-22 00:11:27.223628
+Latency: 8.9s
+==================================================
+
+I'll implement a thread-safe rate limiter class with configurable time windows.
+
+```python
+import time
+import threading
+from collections import deque
+from enum import Enum
+
+class TimeWindow(Enum):
+    SECOND = 1
+    MINUTE = 60
+    HOUR = 3600
+
+class RateLimiter:
+    def __init__(self, max_requests, time_window=TimeWindow.SECOND):
+        self.max_requests = max_requests
+        self.time_window = time_window.value
+        self.requests = deque()
+        self.lock = threading.RLock()
+
+    def allow_request(self):
+        """Check if request is allowed and record it if so."""
+        with self.lock:
+            current_time = time.time()
+
+            # Remove expired requests
+            while self.requests and current_time - self.requests[0] >= self.time_window:
+                self.requests.popleft()
+
+            # Check if we can allow this request
+            if len(self.requests) < self.max_requests:
+                self.requests.append(current_time)
+                return True
+            return False
+
+    def time_until_next_request(self):
+        """Return seconds until next request can be made."""
+        with self.lock:
+            if len(self.requests) < self.max_requests:
+                return 0
+
+            oldest_request = self.requests[0]
+            return max(0, self.time_window - (time.time() - oldest_request))
+
+    def reset(self):
+        """Clear all recorded requests."""
+        with self.lock:
+            self.requests.clear()
+
+# Usage examples and tests
+import unittest
+import concurrent.futures
+
+class TestRateLimiter(unittest.TestCase):
+
+    def test_basic_functionality(self):
+        limiter = RateLimiter(3, TimeWindow.SECOND)
+
+        # Should allow first 3 requests
+        self.assertTrue(limiter.allow_request())
+        self.assertTrue(limiter.allow_request())
+        self.assertTrue(limiter.allow_request())
+
+        # Should deny 4th request
+        self.assertFalse(limiter.allow_request())
+
+    def test_time_window_expiry(self):
+        limiter = RateLimiter(2, TimeWindow.SECOND)
+
+        # Use up quota
+        self.assertTrue(limiter.allow_request())
+        self.assertTrue(limiter.allow_request())
+        self.assertFalse(limiter.allow_request())
+
+        # Wait for window to expire
+        time.sleep(1.1)
+        self.assertTrue(limiter.allow_request())
+
+    def test_concurrent_access(self):
+        limiter = RateLimiter(10, TimeWindow.SECOND)
+        results = []
+
+        def make_request():
+            return limiter.allow_request()
+
+        # Test with 20 concurrent requests
+        with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
+            futures = [executor.submit(make_request) for _ in range(20)]
+            results = [f.result() for f in futures]
+
+        # Should allow exactly 10 requests
+        self.assertEqual(sum(results), 10)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+This implementation provides thread-safe rate limiting with configurable time windows and comprehensive testing.

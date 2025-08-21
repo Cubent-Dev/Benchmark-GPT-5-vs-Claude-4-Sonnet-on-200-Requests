@@ -1,0 +1,18 @@
+{
+  "id": "004_reasoning_math",
+  "domain": "reasoning_math",
+  "difficulty": "medium",
+  "title": "Knights and Knaves Logic Puzzle",
+  "prompt": "On an island, knights always tell the truth and knaves always lie. You meet three inhabitants: A, B, and C. A says 'B is a knave.' B says 'C is a knight.' C says 'A and B are both knaves.' Determine who is a knight and who is a knave, showing your logical reasoning.",
+  "tags": [
+    "logic",
+    "truth_tables",
+    "deduction"
+  ],
+  "evaluation_criteria": {
+    "task_success": "Correct final answer with proper reasoning",
+    "reasoning_quality": "Clear logical structure and valid steps",
+    "factual_precision": "Mathematical accuracy throughout",
+    "helpfulness": "Step-by-step explanation that aids understanding"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "005",
+  "domain": "summarization_editing",
+  "difficulty": "medium",
+  "title": "Technical Paper Summarization",
+  "prompt": "Summarize this abstract from a machine learning paper in exactly 100 words, maintaining all key technical details:\n\n'We present a novel attention mechanism for transformer architectures that reduces computational complexity from O(n²) to O(n log n) while maintaining comparable performance on downstream tasks. Our approach, called Sparse Hierarchical Attention (SHA), uses a tree-based structure to selectively attend to relevant tokens at multiple scales. We evaluate SHA on BERT-base and GPT-2 architectures across five NLP benchmarks: GLUE, SuperGLUE, SQuAD 2.0, CoNLL-2003 NER, and WMT-14 translation. Results show that SHA achieves 94-98% of baseline performance while reducing training time by 40% and inference time by 35%. The method is particularly effective for long sequences (>512 tokens), where traditional attention mechanisms become prohibitively expensive. We provide theoretical analysis proving the approximation bounds and empirical evidence of the efficiency gains across different model sizes.'",
+  "target_length": 100,
+  "evaluation_criteria": {
+    "faithfulness": "No distortion of original technical claims",
+    "completeness": "Includes method name, complexity reduction, benchmarks, results",
+    "conciseness": "Exactly 100 words with efficient language use",
+    "technical_accuracy": "Preserves specific numbers and technical terms"
+  },
+  "key_elements_required": [
+    "Sparse Hierarchical Attention (SHA)",
+    "O(n²) to O(n log n) complexity reduction",
+    "Performance retention (94-98%)",
+    "Training/inference time improvements",
+    "Benchmark names or count",
+    "Long sequence effectiveness"
+  ],
+  "tags": ["summarization", "technical_writing", "machine_learning", "compression", "precision"]
+}

@@ -1,0 +1,74 @@
+Model: claude-4-sonnet
+Timestamp: 2025-08-22 00:11:27.265615
+Latency: 4.5s
+==================================================
+
+I'll fix the factorial function bug and optimize it.
+
+**Bug identified:** Base case returns 0 instead of 1, making all results 0.
+
+**Fixed recursive version:**
+```python
+def factorial(n):
+    if n < 0:
+        raise ValueError("Factorial undefined for negative numbers")
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+```
+
+**Optimized iterative version:**
+```python
+def factorial_optimized(n):
+    if n < 0:
+        raise ValueError("Factorial undefined for negative numbers")
+    if n <= 1:
+        return 1
+
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+```
+
+**Memoized version for repeated calls:**
+```python
+from functools import lru_cache
+
+@lru_cache(maxsize=None)
+def factorial_memoized(n):
+    if n < 0:
+        raise ValueError("Factorial undefined for negative numbers")
+    if n <= 1:
+        return 1
+    return n * factorial_memoized(n - 1)
+```
+
+**Test suite:**
+```python
+def test_factorial():
+    # Basic tests
+    assert factorial(0) == 1
+    assert factorial(1) == 1
+    assert factorial(5) == 120
+
+    # Error handling
+    try:
+        factorial(-1)
+        assert False, "Should raise ValueError"
+    except ValueError:
+        pass
+
+    # Performance comparison
+    import time
+    n = 1000
+
+    start = time.time()
+    result1 = factorial_optimized(n)
+    iterative_time = time.time() - start
+
+    print(f"Iterative: {iterative_time:.4f}s")
+    print("All tests passed!")
+
+test_factorial()
+```

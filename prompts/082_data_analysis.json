@@ -1,0 +1,18 @@
+{
+  "id": "082_data_analysis",
+  "domain": "data_analysis",
+  "difficulty": "medium",
+  "title": "Customer Churn Analysis",
+  "prompt": "Analyze this customer data to identify churn patterns:\n\n| Customer_ID | Tenure_Months | Monthly_Charges | Total_Charges | Churn |\n|-------------|---------------|-----------------|---------------|-------|\n| 001 | 12 | $85.50 | $1,026.00 | Yes |\n| 002 | 24 | $65.20 | $1,564.80 | No |\n| 003 | 6 | $95.00 | $570.00 | Yes |\n\nIdentify key factors contributing to churn and recommend retention strategies.",
+  "tags": [
+    "churn_analysis",
+    "customer_analytics",
+    "business_intelligence"
+  ],
+  "evaluation_criteria": {
+    "task_success": "Accurate analysis with actionable insights",
+    "statistical_accuracy": "Correct calculations and interpretations",
+    "visualization": "Clear charts or tables when appropriate",
+    "business_relevance": "Practical recommendations"
+  }
+}

@@ -1,0 +1,52 @@
+Model: gpt-5
+Timestamp: 2025-08-22 00:11:27.214236
+Latency: 5.7s
+==================================================
+
+Here's a comprehensive timeline of major quantum computing milestones from 1980-2020:
+
+**1981: Theoretical Foundation**
+- Richard Feynman proposes quantum computers at MIT's "Simulating Physics with Computers" conference
+- Suggests quantum systems could efficiently simulate other quantum systems
+
+**1985: Universal Quantum Computer**
+- David Deutsch (Oxford) describes the universal quantum computer concept
+- Published in Proceedings of the Royal Society of London
+
+**1994: Shor's Algorithm**
+- Peter Shor (Bell Labs) develops quantum algorithm for integer factorization
+- Demonstrates exponential speedup over classical algorithms for cryptographically relevant problems
+
+**1996: Grover's Algorithm**
+- Lov Grover (Bell Labs) creates quantum search algorithm
+- Provides quadratic speedup for unstructured search problems
+
+**1998: First Quantum Computations**
+- Multiple groups demonstrate 2-qubit quantum computations
+- IBM, Oxford, and other institutions achieve basic quantum operations
+
+**2001: Shor's Algorithm Demonstration**
+- IBM demonstrates Shor's algorithm on a 7-qubit NMR quantum computer
+- Successfully factors the number 15 (though with some controversy about true "quantum" nature)
+
+**2007: D-Wave's Commercial Claims**
+- D-Wave Systems announces first "commercial" quantum computer
+- Significant debate in scientific community about whether it's truly quantum
+
+**2011: D-Wave One**
+- D-Wave releases 128-qubit quantum annealer
+- Continues debate about quantum advantage vs. classical systems
+
+**2016: IBM Quantum Experience**
+- IBM makes 5-qubit quantum computer available via cloud
+- Democratizes access to quantum computing for researchers and students
+
+**2019: Quantum Supremacy Claims**
+- Google claims quantum supremacy with 53-qubit Sycamore processor
+- IBM disputes the claim, arguing classical computers could match performance
+
+**Uncertainties and Debates:**
+- D-Wave's quantum nature remains debated
+- Google's supremacy claim contested by IBM and others
+- Timeline of practical quantum advantage still uncertain
+- Scalability challenges persist across all approaches

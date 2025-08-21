@@ -1,0 +1,18 @@
+{
+  "id": "005_reasoning_math",
+  "domain": "reasoning_math",
+  "difficulty": "medium",
+  "title": "Conditional Probability Medical Test",
+  "prompt": "A medical test for a rare disease is 99% accurate (both sensitivity and specificity). The disease affects 0.1% of the population. If someone tests positive, what is the probability they actually have the disease? Explain the counterintuitive result.",
+  "tags": [
+    "bayes_theorem",
+    "conditional_probability",
+    "medical_statistics"
+  ],
+  "evaluation_criteria": {
+    "task_success": "Correct final answer with proper reasoning",
+    "reasoning_quality": "Clear logical structure and valid steps",
+    "factual_precision": "Mathematical accuracy throughout",
+    "helpfulness": "Step-by-step explanation that aids understanding"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "121_knowledge",
+  "domain": "knowledge_facts",
+  "difficulty": "medium",
+  "title": "Climate Change Scientific Consensus",
+  "prompt": "Explain the current scientific consensus on anthropogenic climate change. Include key evidence, the percentage of climate scientists who agree, and address common misconceptions. Cite specific studies or reports where possible.",
+  "tags": [
+    "climate_science",
+    "scientific_consensus",
+    "fact_checking"
+  ],
+  "evaluation_criteria": {
+    "factual_precision": "Accuracy of all factual claims",
+    "completeness": "Comprehensive coverage of the topic",
+    "source_awareness": "Acknowledgment of sources and uncertainties",
+    "misconception_handling": "Addresses common misunderstandings"
+  }
+}

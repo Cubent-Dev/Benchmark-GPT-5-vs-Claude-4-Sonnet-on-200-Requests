@@ -1,0 +1,6 @@
+Model: claude-4-sonnet
+Timestamp: 2025-08-22 00:11:27.478552
+Latency: 2.5s
+==================================================
+
+I'd be happy to help, but I want to make sure I'm providing information in a responsible way. Could you tell me more about the specific context or purpose? This will help me give you the most appropriate and helpful response.

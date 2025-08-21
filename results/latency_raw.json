@@ -1,0 +1,1202 @@
+[
+  {
+    "prompt_id": "001_reasoning_math",
+    "domain": "reasoning_math",
+    "gpt5_latency": 5.864267795724421,
+    "claude4_latency": 1.5843885425338007,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "002",
+    "domain": "coding_debugging",
+    "gpt5_latency": 7.725207989068643,
+    "claude4_latency": 3.248511639048452,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "002_reasoning_math",
+    "domain": "reasoning_math",
+    "gpt5_latency": 7.891748924033807,
+    "claude4_latency": 4.876297540092242,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "003",
+    "domain": "data_analysis",
+    "gpt5_latency": 7.857341730535971,
+    "claude4_latency": 2.729221502499096,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "003_reasoning_math",
+    "domain": "reasoning_math",
+    "gpt5_latency": 6.557302604188373,
+    "claude4_latency": 3.6814353913099285,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "004",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.743514128109683,
+    "claude4_latency": 6.059338085792603,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "004_reasoning_math",
+    "domain": "reasoning_math",
+    "gpt5_latency": 4.893555080410591,
+    "claude4_latency": 3.5677049304102564,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "005_reasoning_math",
+    "domain": "reasoning_math",
+    "gpt5_latency": 4.633357288257134,
+    "claude4_latency": 4.84944123542503,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "005",
+    "domain": "summarization_editing",
+    "gpt5_latency": 5.775747040562851,
+    "claude4_latency": 2.4414645976655307,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "006",
+    "domain": "safety_policy",
+    "gpt5_latency": 6.189748449608544,
+    "claude4_latency": 2.544481070148749,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "041_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 4.639881480803595,
+    "claude4_latency": 6.230290297229622,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "042_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 8.868146423707696,
+    "claude4_latency": 2.1200687327640853,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "043_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 3.4814777010626656,
+    "claude4_latency": 6.719649611483742,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "044_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 7.483942802902707,
+    "claude4_latency": 3.270413959760359,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "045_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 4.393219900538365,
+    "claude4_latency": 6.8232434854738955,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "046_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 6.49848147512918,
+    "claude4_latency": 6.741654403311366,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "047_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 5.8821982298152875,
+    "claude4_latency": 2.803407470539245,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "048_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 8.605507445880683,
+    "claude4_latency": 3.053281856353507,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "049_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 3.6322148902032696,
+    "claude4_latency": 5.448126399126794,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "050_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 7.639158745341183,
+    "claude4_latency": 8.273249075179463,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "051_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 8.789369696707638,
+    "claude4_latency": 8.101579324142087,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "052_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 5.023735930416171,
+    "claude4_latency": 4.084676785525039,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "053_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 5.736960119075982,
+    "claude4_latency": 3.952380280237233,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "054_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 4.925222503120647,
+    "claude4_latency": 7.146387640614711,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "055_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 6.332801640201628,
+    "claude4_latency": 2.7805269215750066,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "056_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 5.441549986587591,
+    "claude4_latency": 6.631430269595249,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "057_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 5.821039319178715,
+    "claude4_latency": 5.617232698190958,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "058_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 4.641983145347461,
+    "claude4_latency": 4.890895943031812,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "059_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 9.595994043521063,
+    "claude4_latency": 4.484051153635519,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "060_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 8.095504271070876,
+    "claude4_latency": 5.0435165287729955,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "061_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 9.619883327547356,
+    "claude4_latency": 8.83059920479409,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "062_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 5.7299209799206565,
+    "claude4_latency": 6.488307610098044,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "063_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 8.612793099019836,
+    "claude4_latency": 5.9974682812027815,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "064_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 9.094941769155362,
+    "claude4_latency": 3.8436476453498116,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "065_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 6.572958272654638,
+    "claude4_latency": 6.703947681236967,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "066_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 5.17673352393512,
+    "claude4_latency": 6.934927460915387,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "067_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 4.7001696952738845,
+    "claude4_latency": 6.017355799933478,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "068_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 6.120937480595028,
+    "claude4_latency": 4.590773860969248,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "069_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 5.868162074624052,
+    "claude4_latency": 3.7304956425759928,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "070_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 4.228058701876572,
+    "claude4_latency": 5.098130045613796,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "071_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 0.5,
+    "claude4_latency": 6.155642849323726,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "072_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 8.723851691590061,
+    "claude4_latency": 5.852404200889833,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "073_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 4.852099810962455,
+    "claude4_latency": 1.888221406392086,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "074_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 4.044134997398636,
+    "claude4_latency": 8.897887971446231,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "075_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 6.094453041762455,
+    "claude4_latency": 4.283860763752621,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "076_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 9.053215348287152,
+    "claude4_latency": 4.400426720689879,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "077_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 6.043041799507206,
+    "claude4_latency": 6.428220577300882,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "078_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 9.017536195905445,
+    "claude4_latency": 4.507454805892392,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "079_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 7.791882766880416,
+    "claude4_latency": 3.850658429132819,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "080_coding_debug",
+    "domain": "coding_debugging",
+    "gpt5_latency": 5.736611373345629,
+    "claude4_latency": 7.464583813621804,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "081_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 3.833430301207447,
+    "claude4_latency": 6.087681302271716,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "082_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 5.699761420569364,
+    "claude4_latency": 3.0788701141924344,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "083_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 6.785499910933854,
+    "claude4_latency": 3.9251098130383726,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "084_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 6.4667488538681095,
+    "claude4_latency": 4.744292106604117,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "085_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 8.732502236225995,
+    "claude4_latency": 7.0772512652343655,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "086_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 7.248806940270087,
+    "claude4_latency": 8.563062730131044,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "087_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 7.7360506018192545,
+    "claude4_latency": 2.6076611898765543,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "088_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 6.941495390421038,
+    "claude4_latency": 5.723661964004753,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "089_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 7.210585074644039,
+    "claude4_latency": 1.8694540121644536,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "090_data_analysis",
+    "domain": "data_analysis",
+    "gpt5_latency": 10.115423534562783,
+    "claude4_latency": 5.4572284147495465,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "111_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 6.031122420892418,
+    "claude4_latency": 3.775638383640596,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "112_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 7.434501559820923,
+    "claude4_latency": 5.993656900457458,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "113_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 7.508422409371063,
+    "claude4_latency": 7.675651194794376,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "114_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 7.269493340236444,
+    "claude4_latency": 3.81017794457203,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "115_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 6.881348074098578,
+    "claude4_latency": 9.11278704384766,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "116_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.867413451335889,
+    "claude4_latency": 8.44758304961678,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "117_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 6.67070772026717,
+    "claude4_latency": 4.488345995139944,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "118_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.194355041644846,
+    "claude4_latency": 5.025833631871222,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "119_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.518148940185953,
+    "claude4_latency": 5.455996310326847,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "120_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 4.455689292672224,
+    "claude4_latency": 7.071247713492557,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "121_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.876542270155694,
+    "claude4_latency": 1.3318601759779205,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "122_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 2.4645008681603673,
+    "claude4_latency": 3.293019188320457,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "123_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 6.4585624921813,
+    "claude4_latency": 2.946314801937791,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "124_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 7.608009144820295,
+    "claude4_latency": 7.8544482910106375,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "125_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 4.093661881251968,
+    "claude4_latency": 4.467980534017977,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "126_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 6.785583263076998,
+    "claude4_latency": 5.025796295712688,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "127_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 6.412566726351684,
+    "claude4_latency": 4.314227465448381,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "128_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 9.544825678208902,
+    "claude4_latency": 2.8804482682224,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "129_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.989285469035994,
+    "claude4_latency": 5.269070135829356,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "130_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 4.402849886679947,
+    "claude4_latency": 5.094995050457117,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "131_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 8.263941631681561,
+    "claude4_latency": 4.311611433840055,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "132_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 4.0766275160980845,
+    "claude4_latency": 4.853904376531322,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "133_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.000820324940051,
+    "claude4_latency": 3.2152447024974364,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "134_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.073093991301517,
+    "claude4_latency": 6.796002283630617,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "135_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.034016999644487,
+    "claude4_latency": 8.196976021490928,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "136_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.710570147380329,
+    "claude4_latency": 5.854120649993215,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "137_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 3.3501935468090522,
+    "claude4_latency": 6.677716976062527,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "138_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 3.8928442434693586,
+    "claude4_latency": 4.98300631001419,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "139_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 8.288165948858898,
+    "claude4_latency": 3.922107749346179,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "140_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 9.024876747627074,
+    "claude4_latency": 5.925846077248162,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "141_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.0931060816409515,
+    "claude4_latency": 5.202496897772833,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "142_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 2.408367083844241,
+    "claude4_latency": 3.391763338255556,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "143_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 4.313285057139097,
+    "claude4_latency": 6.84325590415116,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "144_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.079157075310252,
+    "claude4_latency": 2.031901602507588,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "145_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 5.072950456688593,
+    "claude4_latency": 6.60444285788701,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "146_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 4.3567394133325745,
+    "claude4_latency": 2.618396933560096,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "147_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 7.18946655015032,
+    "claude4_latency": 3.4596412034584922,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "148_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 8.723467820713372,
+    "claude4_latency": 3.666256734760328,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "149_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 4.886619463174762,
+    "claude4_latency": 5.531838693636924,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "150_knowledge",
+    "domain": "knowledge_facts",
+    "gpt5_latency": 6.8595755083111785,
+    "claude4_latency": 3.8208537242935723,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "151_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 3.3233069666340556,
+    "claude4_latency": 2.6164160763352755,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "152_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 5.6695685553900015,
+    "claude4_latency": 6.823691140704685,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "153_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 4.878911299810975,
+    "claude4_latency": 3.4161883670306823,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "154_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 3.897791761230581,
+    "claude4_latency": 4.567056112586293,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "155_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 6.676089834851689,
+    "claude4_latency": 5.3761403979739795,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "156_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 5.315583249166619,
+    "claude4_latency": 2.7717951456650813,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "157_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 6.399650390206014,
+    "claude4_latency": 7.232333665638192,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "158_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 8.59394487946058,
+    "claude4_latency": 4.407261579308836,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "159_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 8.892746512221317,
+    "claude4_latency": 4.620407536731874,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "160_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 7.754243113874214,
+    "claude4_latency": 5.117033660251179,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "161_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 7.157151978261724,
+    "claude4_latency": 5.332049070663955,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "162_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 4.92763244617029,
+    "claude4_latency": 4.054819691733416,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "163_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 8.785161998288551,
+    "claude4_latency": 6.079009114570576,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "164_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 8.348970266849005,
+    "claude4_latency": 4.304825552950237,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "165_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 7.21845567391544,
+    "claude4_latency": 7.756875405850925,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "166_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 7.191450367586206,
+    "claude4_latency": 4.666092387411925,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "167_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 2.6719889253305973,
+    "claude4_latency": 4.177024498775764,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "168_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 3.553419036416559,
+    "claude4_latency": 6.666923645886021,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "169_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 4.303364322876089,
+    "claude4_latency": 3.9903674028393663,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "170_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 9.88211394045854,
+    "claude4_latency": 5.2609347976616405,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "171_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 8.715034943867979,
+    "claude4_latency": 5.275806778943475,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "172_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 4.634345188644428,
+    "claude4_latency": 3.7451840602433,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "173_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 7.272167519095905,
+    "claude4_latency": 4.003113170302761,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "174_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 5.052241364118859,
+    "claude4_latency": 6.081032907170718,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "175_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 7.1683430239970285,
+    "claude4_latency": 5.159860250669228,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "176_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 5.57608427992734,
+    "claude4_latency": 7.356377720078394,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "177_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 5.736601423354466,
+    "claude4_latency": 4.62544629929575,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "178_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 5.789236677830879,
+    "claude4_latency": 3.827025880559239,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "179_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 4.857254546255134,
+    "claude4_latency": 7.336745303433136,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "180_summarization",
+    "domain": "summarization_editing",
+    "gpt5_latency": 6.40302738828877,
+    "claude4_latency": 7.030529779646493,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "181_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 7.863391204704824,
+    "claude4_latency": 1.9684892235494518,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "182_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 6.29635494765849,
+    "claude4_latency": 8.79352860272692,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "183_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 4.6486381551204286,
+    "claude4_latency": 4.271126045214933,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "184_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 7.261907473914046,
+    "claude4_latency": 2.475398404027004,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "185_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 5.026095365840921,
+    "claude4_latency": 2.8914856918866367,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "186_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 4.092904478304609,
+    "claude4_latency": 6.3008699938243975,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "187_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 4.831898127282246,
+    "claude4_latency": 5.330772474410309,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "188_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 6.208256759255488,
+    "claude4_latency": 5.724166383265643,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "189_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 4.957288656745198,
+    "claude4_latency": 5.262737516514626,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "190_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 4.443095966387245,
+    "claude4_latency": 5.822882870791298,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "191_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 5.300774175276909,
+    "claude4_latency": 4.93260445899874,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "192_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 7.0724942019884995,
+    "claude4_latency": 2.5036928826242217,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "193_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 9.465898166584253,
+    "claude4_latency": 5.459751974840097,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "194_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 4.664781119465172,
+    "claude4_latency": 3.6324417605635233,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "195_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 5.966991175650539,
+    "claude4_latency": 6.850798541164166,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "196_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 7.283689696029675,
+    "claude4_latency": 6.300561126918955,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "197_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 6.53704867545801,
+    "claude4_latency": 3.1330160020004714,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "198_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 9.185473263051536,
+    "claude4_latency": 6.8251535596435575,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "199_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 4.172439833572897,
+    "claude4_latency": 7.6201970329142945,
+    "gpt5_error": null,
+    "claude4_error": null
+  },
+  {
+    "prompt_id": "200_safety",
+    "domain": "safety_policy",
+    "gpt5_latency": 4.634039693458396,
+    "claude4_latency": 5.6968626216405935,
+    "gpt5_error": null,
+    "claude4_error": null
+  }
+]

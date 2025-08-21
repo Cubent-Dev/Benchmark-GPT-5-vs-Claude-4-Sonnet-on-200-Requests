@@ -1,0 +1,18 @@
+{
+  "id": "053_coding_debug",
+  "domain": "coding_debugging",
+  "difficulty": "easy",
+  "title": "Recursive Function Bug Fix",
+  "prompt": "Fix the bug in this recursive factorial function and optimize it:\n\n```python\ndef factorial(n):\n    if n == 0:\n        return 0\n    return n * factorial(n - 1)\n```\n\nThe function should handle edge cases and be efficient for large inputs.",
+  "tags": [
+    "recursion",
+    "debugging",
+    "optimization"
+  ],
+  "evaluation_criteria": {
+    "task_success": "Working code that solves the problem",
+    "code_quality": "Clean, readable, and well-structured",
+    "test_coverage": "Comprehensive unit tests included",
+    "explanation": "Clear explanation of changes and reasoning"
+  }
+}

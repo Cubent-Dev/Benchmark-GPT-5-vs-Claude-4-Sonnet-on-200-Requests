@@ -1,0 +1,8 @@
+Model: gpt-5
+Timestamp: 2025-08-22 00:11:27.424199
+Latency: 7.2s
+==================================================
+
+Here's a 100-word summary of the technical paper:
+
+Sparse Hierarchical Attention (SHA) is a novel attention mechanism for transformers that reduces computational complexity from O(n²) to O(n log n) while maintaining performance. Using tree-based structures, SHA selectively attends to relevant tokens at multiple scales. Evaluation on BERT-base and GPT-2 across five benchmarks (GLUE, SuperGLUE, SQuAD 2.0, CoNLL-2003 NER, WMT-14) shows SHA achieves 94-98% of baseline performance while reducing training time by 40% and inference time by 35%. The method excels particularly for long sequences (>512 tokens) where traditional attention becomes prohibitively expensive. Theoretical analysis provides approximation bounds with empirical evidence of efficiency gains across different model sizes.

@@ -1,0 +1,18 @@
+{
+  "id": "002_reasoning_math",
+  "domain": "reasoning_math",
+  "difficulty": "hard",
+  "title": "Investment Portfolio Optimization",
+  "prompt": "An investor has $50,000 to split between stocks (8% return), bonds (4% return), and savings (2% return). They want at least twice as much in stocks as bonds, and the total return should be $3,200. If they must invest at least $5,000 in savings, what should the allocation be?",
+  "tags": [
+    "optimization",
+    "linear_programming",
+    "finance"
+  ],
+  "evaluation_criteria": {
+    "task_success": "Correct final answer with proper reasoning",
+    "reasoning_quality": "Clear logical structure and valid steps",
+    "factual_precision": "Mathematical accuracy throughout",
+    "helpfulness": "Step-by-step explanation that aids understanding"
+  }
+}

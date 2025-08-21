@@ -1,0 +1,44 @@
+Model: claude-4-sonnet
+Timestamp: 2025-08-22 00:11:27.371757
+Latency: 8.2s
+==================================================
+
+The scientific consensus on anthropogenic climate change is exceptionally strong and well-established.
+
+## Consensus Statistics
+
+**97%+ Agreement:** Multiple independent studies confirm 97-99% of climate scientists agree humans are the primary cause of recent warming:
+- Cook et al. (2013): 97% of papers expressing a position
+- Doran & Zimmerman (2009): 97% of actively publishing climatologists
+- Anderegg et al. (2010): 97-98% of most published researchers
+
+## Key Scientific Evidence
+
+**Temperature Data:**
+- Global average temperature increased ~1.1°C since 1880
+- Last decade was warmest on record
+- Warming pattern matches greenhouse gas predictions
+
+**Atmospheric Chemistry:**
+- CO₂ levels rose from 280ppm (pre-industrial) to 415ppm+ today
+- Isotopic signatures confirm fossil fuel origin
+- Rate of increase unprecedented in geological record
+
+**Physical Indicators:**
+- Arctic sea ice declining ~13% per decade
+- Glacial retreat on all continents
+- Sea level rise accelerating (3.3mm/year currently)
+
+## Authoritative Sources
+
+- **IPCC AR6 (2021):** "Unequivocal" human influence on climate
+- **NASA/NOAA:** Consistent temperature datasets
+- **National Academies:** 80+ countries endorse consensus
+
+## Addressing Misconceptions
+
+**"Natural variation"** → Current warming rate 10x faster than post-ice age recovery
+**"Solar cycles"** → Solar activity declining while temperatures rise
+**"CO₂ benefits plants"** → Negated by heat stress, drought, extreme weather
+
+The consensus is as strong as scientific agreement on evolution, gravity, or the health risks of smoking.

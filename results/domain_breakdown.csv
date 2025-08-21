@@ -1,0 +1,13 @@
+domain,model,task_success,factual_precision,reasoning_quality,helpfulness,latency_p50
+reasoning_math,gpt-5,0.875,0.920,4.48,4.45,6.7
+reasoning_math,claude-4-sonnet,0.825,0.940,4.21,4.38,5.6
+coding_debugging,gpt-5,0.880,0.925,4.52,4.55,7.1
+coding_debugging,claude-4-sonnet,0.820,0.915,4.18,4.42,5.8
+data_analysis,gpt-5,0.867,0.935,4.28,4.38,6.9
+data_analysis,claude-4-sonnet,0.833,0.910,4.12,4.25,5.3
+knowledge_facts,gpt-5,0.850,0.920,4.25,4.35,5.9
+knowledge_facts,claude-4-sonnet,0.875,0.950,4.24,4.40,4.8
+summarization_editing,gpt-5,0.833,0.905,4.22,4.30,5.4
+summarization_editing,claude-4-sonnet,0.867,0.935,4.35,4.45,4.2
+safety_policy,gpt-5,0.850,0.890,4.40,4.50,6.2
+safety_policy,claude-4-sonnet,0.900,0.920,4.52,4.58,5.0

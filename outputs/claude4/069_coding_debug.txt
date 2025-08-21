@@ -1,0 +1,115 @@
+Model: claude-4-sonnet
+Timestamp: 2025-08-22 00:11:27.285704
+Latency: 3.7s
+==================================================
+
+I'll implement a thread-safe rate limiter with flexible time windows.
+
+```python
+import time
+import threading
+from collections import deque
+from typing import Optional
+
+class RateLimiter:
+    def __init__(self, max_requests: int, window_seconds: int):
+        self.max_requests = max_requests
+        self.window_seconds = window_seconds
+        self.requests = deque()
+        self._lock = threading.Lock()
+
+    def is_allowed(self) -> bool:
+        """Check if request is allowed and record it."""
+        with self._lock:
+            now = time.time()
+
+            # Remove expired requests
+            while self.requests and now - self.requests[0] >= self.window_seconds:
+                self.requests.popleft()
+
+            # Check quota
+            if len(self.requests) < self.max_requests:
+                self.requests.append(now)
+                return True
+            return False
+
+    def wait_time(self) -> float:
+        """Time to wait before next request is allowed."""
+        with self._lock:
+            if len(self.requests) < self.max_requests:
+                return 0.0
+
+            oldest = self.requests[0]
+            return max(0.0, self.window_seconds - (time.time() - oldest))
+
+    def reset(self) -> None:
+        """Clear all request history."""
+        with self._lock:
+            self.requests.clear()
+
+# Factory for common patterns
+class RateLimiters:
+    @staticmethod
+    def per_second(requests: int) -> RateLimiter:
+        return RateLimiter(requests, 1)
+
+    @staticmethod
+    def per_minute(requests: int) -> RateLimiter:
+        return RateLimiter(requests, 60)
+
+    @staticmethod
+    def per_hour(requests: int) -> RateLimiter:
+        return RateLimiter(requests, 3600)
+
+# Comprehensive tests
+import unittest
+from concurrent.futures import ThreadPoolExecutor
+
+class TestRateLimiter(unittest.TestCase):
+
+    def test_basic_limiting(self):
+        limiter = RateLimiters.per_second(2)
+
+        self.assertTrue(limiter.is_allowed())
+        self.assertTrue(limiter.is_allowed())
+        self.assertFalse(limiter.is_allowed())  # Quota exceeded
+
+    def test_window_sliding(self):
+        limiter = RateLimiters.per_second(1)
+
+        self.assertTrue(limiter.is_allowed())
+        self.assertFalse(limiter.is_allowed())
+
+        time.sleep(1.1)  # Wait for window to slide
+        self.assertTrue(limiter.is_allowed())
+
+    def test_thread_safety(self):
+        limiter = RateLimiters.per_second(5)
+
+        def worker():
+            return limiter.is_allowed()
+
+        with ThreadPoolExecutor(max_workers=10) as executor:
+            results = list(executor.map(lambda _: worker(), range(10)))
+
+        # Exactly 5 should be allowed
+        self.assertEqual(sum(results), 5)
+
+    def test_wait_time(self):
+        limiter = RateLimiters.per_second(1)
+        limiter.is_allowed()  # Use quota
+
+        wait_time = limiter.wait_time()
+        self.assertGreater(wait_time, 0)
+        self.assertLessEqual(wait_time, 1)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+**Key Features:**
+- Thread-safe using locks
+- Sliding window algorithm
+- Configurable time windows
+- Factory methods for common patterns
+- Comprehensive test coverage

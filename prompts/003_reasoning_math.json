@@ -1,0 +1,18 @@
+{
+  "id": "003_reasoning_math",
+  "domain": "reasoning_math",
+  "difficulty": "hard",
+  "title": "Complex Area Calculation",
+  "prompt": "A regular hexagon is inscribed in a circle of radius 10 cm. Inside this hexagon, an equilateral triangle is inscribed such that its vertices touch three alternate vertices of the hexagon. Calculate the area of the region inside the hexagon but outside the triangle.",
+  "tags": [
+    "geometry",
+    "area",
+    "regular_polygons"
+  ],
+  "evaluation_criteria": {
+    "task_success": "Correct final answer with proper reasoning",
+    "reasoning_quality": "Clear logical structure and valid steps",
+    "factual_precision": "Mathematical accuracy throughout",
+    "helpfulness": "Step-by-step explanation that aids understanding"
+  }
+}

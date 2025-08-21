@@ -1,0 +1,30 @@
+{
+  "id": "003",
+  "domain": "data_analysis",
+  "difficulty": "medium",
+  "title": "Sales Performance Analysis",
+  "prompt": "Analyze this quarterly sales data and provide insights:\n\n| Quarter | Product A | Product B | Product C | Marketing Spend |\n|---------|-----------|-----------|-----------|----------------|\n| Q1 2023 | $125,000  | $89,000   | $156,000  | $45,000        |\n| Q2 2023 | $142,000  | $95,000   | $134,000  | $52,000        |\n| Q3 2023 | $138,000  | $112,000  | $145,000  | $48,000        |\n| Q4 2023 | $165,000  | $128,000  | $167,000  | $58,000        |\n\nCalculate growth rates, identify trends, and recommend which product to focus marketing efforts on. Include ROI analysis.",
+  "expected_analysis": {
+    "growth_rates": {
+      "product_a": "32% annual growth",
+      "product_b": "44% annual growth", 
+      "product_c": "7% annual growth"
+    },
+    "total_revenue_growth": "26.8%",
+    "marketing_roi": "Calculation of revenue per marketing dollar",
+    "recommendation": "Focus on Product B due to highest growth rate"
+  },
+  "evaluation_criteria": {
+    "task_success": "Correct calculations and clear recommendation",
+    "data_accuracy": "Mathematical precision in growth rates and ROI",
+    "insight_quality": "Meaningful business insights beyond basic calculations",
+    "presentation": "Clear tables, charts, or structured analysis"
+  },
+  "required_calculations": [
+    "Quarter-over-quarter growth rates",
+    "Annual growth rates by product",
+    "Marketing ROI by quarter",
+    "Total revenue trends"
+  ],
+  "tags": ["data_analysis", "business_intelligence", "roi_calculation", "trend_analysis"]
+}

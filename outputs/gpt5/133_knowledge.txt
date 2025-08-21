@@ -1,0 +1,32 @@
+Model: gpt-5
+Timestamp: 2025-08-22 00:11:27.368010
+Latency: 5.0s
+==================================================
+
+The scientific consensus on anthropogenic climate change is overwhelming and well-documented.
+
+**Current Scientific Consensus:**
+Multiple studies show 97-99% of actively publishing climate scientists agree that human activities are the primary driver of recent climate change. The most comprehensive analysis (Cook et al., 2013) found 97% consensus among papers expressing a position on the cause of global warming.
+
+**Key Evidence:**
+1. **Temperature Records:** Global average temperatures have risen ~1.1°C since pre-industrial times
+2. **CO2 Concentrations:** Atmospheric CO2 has increased from ~280ppm to over 410ppm since 1880
+3. **Isotopic Analysis:** Carbon isotope ratios confirm fossil fuel origin of excess CO2
+4. **Ice Core Data:** Current CO2 levels are highest in 800,000+ years
+5. **Sea Level Rise:** ~20cm rise since 1900, accelerating in recent decades
+
+**Major Scientific Reports:**
+- IPCC Assessment Reports (AR6, 2021-2023): "Unequivocal" human influence
+- NASA/NOAA temperature datasets showing consistent warming
+- National Academy of Sciences statements from 80+ countries
+
+**Common Misconceptions Addressed:**
+- "Climate has always changed naturally" → Current rate and pattern unprecedented
+- "CO2 is plant food" → Ignores temperature, precipitation, and ecosystem disruption
+- "Models are unreliable" → Models have successfully predicted observed changes
+- "It's the sun" → Solar activity has been declining while temperatures rise
+
+**Confidence Level:**
+The IPCC AR6 expresses "high confidence" (>90% probability) that human influence has warmed the planet, with "very high confidence" (>95%) for many specific impacts.
+
+This represents one of the strongest scientific consensuses in modern science, comparable to the consensus on evolution or the link between smoking and cancer.

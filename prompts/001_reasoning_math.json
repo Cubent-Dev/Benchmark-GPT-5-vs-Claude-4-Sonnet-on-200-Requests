@@ -1,0 +1,18 @@
+{
+  "id": "001_reasoning_math",
+  "domain": "reasoning_math",
+  "difficulty": "medium",
+  "title": "Age Problem with Multiple Constraints",
+  "prompt": "Sarah is currently 3 times as old as her daughter Emma. In 12 years, Sarah will be only twice as old as Emma. If Sarah's age is also 4 more than 5 times Emma's current age minus 8, how old are they now?",
+  "tags": [
+    "algebra",
+    "age_problems",
+    "constraints"
+  ],
+  "evaluation_criteria": {
+    "task_success": "Correct final answer with proper reasoning",
+    "reasoning_quality": "Clear logical structure and valid steps",
+    "factual_precision": "Mathematical accuracy throughout",
+    "helpfulness": "Step-by-step explanation that aids understanding"
+  }
+}
