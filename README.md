@@ -1,5 +1,7 @@
 # GPT-5 vs Claude 4 Sonnet: Comprehensive Evaluation Study
 
+![Benchmarking GPT-5 vs Claude 4 Sonnet](Benchmarking%20GPT-5%20vs%20Claude%204%20Sonnet%20on%20200%20Requests.png)
+
 ## Authors & Volunteers
 - **Dr. Mattia Salvarani** (UNIMORE)
 - **Prof. Carlos Hernández** (University of Cambridge)
