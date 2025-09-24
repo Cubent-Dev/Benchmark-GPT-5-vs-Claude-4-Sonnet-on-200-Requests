@@ -1,11 +1,6 @@
 # GPT-5 vs Claude 4 Sonnet: Evaluation Study with 200 Prompts
 
 ![Benchmarking GPT-5 vs Claude 4 Sonnet](Benchmarking%20GPT-5%20vs%20Claude%204%20Sonnet%20on%20200%20Requests.png)
-## Authors & Volunteers
-- **Dr. Mattia Salvarani** (UNIMORE)
-- **Prof. Carlos Hernández** (University of Cambridge)
-- **Dr. Aisha Rahman** (University of Toronto)
-- **Prof. Luca Moretti** (ETH Zürich)
 
 **Affiliation:** MREI Research (Stealth LLM Research)
 
