@@ -1,6 +1,6 @@
 # GPT-5 vs Claude 4 Sonnet: Evaluation Study with 200 Prompts
 
-![Benchmarking GPT-5 vs Claude 4 Sonnet](Benchmarking%20GPT-5%20vs%20Claude%204%20Sonnet%20on%20200%20Requests.png)
+![Benchmarking GPT-5 vs Claude 4 Sonnet]([Benchmarking%20GPT-5%20vs%20Claude%204%20Sonnet%20on%20200%20Requests.png](https://i.postimg.cc/Qx8rcQLF/Cost-X-Accuracy-for-Sonnet-4-and-GPT-5-for-200-Requests.png))
 
 **Affiliation:** MREI Research (Stealth LLM Research)
 
